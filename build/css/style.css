@@ -1,0 +1,33 @@
+html{
+    overflow-x: hidden;
+}
+
+.react-calendar {
+    width: 600px !important;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.react-calendar__tile--now {
+    background: #6f48eb !important;
+    border-radius: 5px;
+}
+
+.slick-slider {
+    margin: 0 auto;
+    padding: 0 18px;
+    margin-top: 25px;
+}
+
+.slick-dots {
+    bottom: 0;
+}
+
+.slick-dots li button:before {
+    color: #ffffff;
+}
+
+.slick-active li button:before {
+    color: #000000;
+}
